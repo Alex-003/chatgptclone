@@ -3,5 +3,18 @@
 
 ## Tools used
 
-# Vite:
+# Vite
 
+
+
+## Server
+
+# Cors (Cross-Origin Resource Sharing )
+
+# dotenv: secure environment variables
+
+# express: backend framework
+
+# nodemon: keep aplication running
+
+# openai: chatgpt
