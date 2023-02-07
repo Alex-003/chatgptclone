@@ -43,6 +43,9 @@ res.status(200).send({
  }
 })
 
+app.listen(5000, () => console.log('Server is running on port http://localhost:5000'));
+
+
 /* This code sets up an Express.js web server and uses the OpenAI API to generate text completions. 
 The code sets up a configuration for the OpenAI API with an API key obtained from the environment variables defined in a .env file. 
 It then creates an instance of the OpenAI API.
@@ -50,7 +53,7 @@ It then creates an instance of the OpenAI API.
 The Express server uses the CORS middleware to allow cross-origin requests and the express.json middleware to parse JSON requests.
 There are two endpoints defined:
 
-GET /: Returns a JSON object with the message Hello from AI.
+GET /: Returns a JSON object with the message 'Hello from AI'.
 POST /: Receives a JSON object with a prompt string, uses the OpenAI API to generate a text completion for the prompt, 
 and returns the response as a JSON object with the completed text.
 
